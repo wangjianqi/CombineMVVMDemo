@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D87B0852396003E001D8BDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D87B0842396003E001D8BDD /* AppDelegate.swift */; };
+		7D87B0872396003E001D8BDD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D87B0862396003E001D8BDD /* SceneDelegate.swift */; };
+		7D87B08C2396003E001D8BDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D87B08A2396003E001D8BDD /* Main.storyboard */; };
+		7D87B08E23960040001D8BDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D87B08D23960040001D8BDD /* Assets.xcassets */; };
+		7D87B09123960040001D8BDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D87B08F23960040001D8BDD /* LaunchScreen.storyboard */; };
+		7D87B0A82396007C001D8BDD /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D87B0992396007B001D8BDD /* LoadingViewController.swift */; };
+		7D87B0A92396007C001D8BDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D87B09B2396007B001D8BDD /* ViewController.swift */; };
+		7D87B0AA2396007C001D8BDD /* UIViewController+exsions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D87B09C2396007B001D8BDD /* UIViewController+exsions.swift */; };
+		7D87B0AB2396007C001D8BDD /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D87B09D2396007B001D8BDD /* Storyboard.swift */; };
+		7D87B0AC2396007C001D8BDD /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D87B09F2396007B001D8BDD /* Calculator.swift */; };
+		7D87B0AD2396007C001D8BDD /* DrugModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D87B0A02396007B001D8BDD /* DrugModel.swift */; };
+		7D87B0AE2396007C001D8BDD /* LayoutConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D87B0A12396007B001D8BDD /* LayoutConstants.swift */; };
+		7D87B0AF2396007C001D8BDD /* DrugTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D87B0A32396007B001D8BDD /* DrugTableViewCell.swift */; };
+		7D87B0B02396007C001D8BDD /* DrugTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D87B0A42396007B001D8BDD /* DrugTableViewCell.xib */; };
+		7D87B0B12396007C001D8BDD /* DrugCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D87B0A62396007B001D8BDD /* DrugCellViewModel.swift */; };
+		7D87B0B22396007C001D8BDD /* DrugViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D87B0A72396007B001D8BDD /* DrugViewModel.swift */; };
+		7D87B0B523960198001D8BDD /* drugList.json in Resources */ = {isa = PBXBuildFile; fileRef = 7D87B0B423960198001D8BDD /* drugList.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7D87B0812396003E001D8BDD /* CombineMVVMDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CombineMVVMDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D87B0842396003E001D8BDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7D87B0862396003E001D8BDD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7D87B08B2396003E001D8BDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7D87B08D23960040001D8BDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D87B09023960040001D8BDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7D87B09223960040001D8BDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D87B0992396007B001D8BDD /* LoadingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		7D87B09B2396007B001D8BDD /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7D87B09C2396007B001D8BDD /* UIViewController+exsions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+exsions.swift"; sourceTree = "<group>"; };
+		7D87B09D2396007B001D8BDD /* Storyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboard.swift; sourceTree = "<group>"; };
+		7D87B09F2396007B001D8BDD /* Calculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		7D87B0A02396007B001D8BDD /* DrugModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrugModel.swift; sourceTree = "<group>"; };
+		7D87B0A12396007B001D8BDD /* LayoutConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutConstants.swift; sourceTree = "<group>"; };
+		7D87B0A32396007B001D8BDD /* DrugTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrugTableViewCell.swift; sourceTree = "<group>"; };
+		7D87B0A42396007B001D8BDD /* DrugTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DrugTableViewCell.xib; sourceTree = "<group>"; };
+		7D87B0A62396007B001D8BDD /* DrugCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrugCellViewModel.swift; sourceTree = "<group>"; };
+		7D87B0A72396007B001D8BDD /* DrugViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrugViewModel.swift; sourceTree = "<group>"; };
+		7D87B0B423960198001D8BDD /* drugList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = drugList.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D87B07E2396003E001D8BDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D87B0782396003E001D8BDD = {
+			isa = PBXGroup;
+			children = (
+				7D87B0832396003E001D8BDD /* CombineMVVMDemo */,
+				7D87B0822396003E001D8BDD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D87B0822396003E001D8BDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D87B0812396003E001D8BDD /* CombineMVVMDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D87B0832396003E001D8BDD /* CombineMVVMDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7D87B0B323960198001D8BDD /* TestData */,
+				7D87B09A2396007B001D8BDD /* C */,
+				7D87B0982396007B001D8BDD /* Loading */,
+				7D87B09E2396007B001D8BDD /* Model */,
+				7D87B0A22396007B001D8BDD /* view */,
+				7D87B0A52396007B001D8BDD /* ViewModel */,
+				7D87B0842396003E001D8BDD /* AppDelegate.swift */,
+				7D87B0862396003E001D8BDD /* SceneDelegate.swift */,
+				7D87B08A2396003E001D8BDD /* Main.storyboard */,
+				7D87B08D23960040001D8BDD /* Assets.xcassets */,
+				7D87B08F23960040001D8BDD /* LaunchScreen.storyboard */,
+				7D87B09223960040001D8BDD /* Info.plist */,
+			);
+			path = CombineMVVMDemo;
+			sourceTree = "<group>";
+		};
+		7D87B0982396007B001D8BDD /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				7D87B0992396007B001D8BDD /* LoadingViewController.swift */,
+			);
+			path = Loading;
+			sourceTree = "<group>";
+		};
+		7D87B09A2396007B001D8BDD /* C */ = {
+			isa = PBXGroup;
+			children = (
+				7D87B09B2396007B001D8BDD /* ViewController.swift */,
+				7D87B09C2396007B001D8BDD /* UIViewController+exsions.swift */,
+				7D87B09D2396007B001D8BDD /* Storyboard.swift */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		7D87B09E2396007B001D8BDD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7D87B09F2396007B001D8BDD /* Calculator.swift */,
+				7D87B0A02396007B001D8BDD /* DrugModel.swift */,
+				7D87B0A12396007B001D8BDD /* LayoutConstants.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7D87B0A22396007B001D8BDD /* view */ = {
+			isa = PBXGroup;
+			children = (
+				7D87B0A32396007B001D8BDD /* DrugTableViewCell.swift */,
+				7D87B0A42396007B001D8BDD /* DrugTableViewCell.xib */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		7D87B0A52396007B001D8BDD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7D87B0A62396007B001D8BDD /* DrugCellViewModel.swift */,
+				7D87B0A72396007B001D8BDD /* DrugViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7D87B0B323960198001D8BDD /* TestData */ = {
+			isa = PBXGroup;
+			children = (
+				7D87B0B423960198001D8BDD /* drugList.json */,
+			);
+			path = TestData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D87B0802396003E001D8BDD /* CombineMVVMDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D87B09523960040001D8BDD /* Build configuration list for PBXNativeTarget "CombineMVVMDemo" */;
+			buildPhases = (
+				7D87B07D2396003E001D8BDD /* Sources */,
+				7D87B07E2396003E001D8BDD /* Frameworks */,
+				7D87B07F2396003E001D8BDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CombineMVVMDemo;
+			productName = CombineMVVMDemo;
+			productReference = 7D87B0812396003E001D8BDD /* CombineMVVMDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D87B0792396003E001D8BDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = zcj;
+				TargetAttributes = {
+					7D87B0802396003E001D8BDD = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 7D87B07C2396003E001D8BDD /* Build configuration list for PBXProject "CombineMVVMDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D87B0782396003E001D8BDD;
+			productRefGroup = 7D87B0822396003E001D8BDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D87B0802396003E001D8BDD /* CombineMVVMDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D87B07F2396003E001D8BDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D87B09123960040001D8BDD /* LaunchScreen.storyboard in Resources */,
+				7D87B0B523960198001D8BDD /* drugList.json in Resources */,
+				7D87B08E23960040001D8BDD /* Assets.xcassets in Resources */,
+				7D87B08C2396003E001D8BDD /* Main.storyboard in Resources */,
+				7D87B0B02396007C001D8BDD /* DrugTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D87B07D2396003E001D8BDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D87B0AF2396007C001D8BDD /* DrugTableViewCell.swift in Sources */,
+				7D87B0AD2396007C001D8BDD /* DrugModel.swift in Sources */,
+				7D87B0A92396007C001D8BDD /* ViewController.swift in Sources */,
+				7D87B0B12396007C001D8BDD /* DrugCellViewModel.swift in Sources */,
+				7D87B0AA2396007C001D8BDD /* UIViewController+exsions.swift in Sources */,
+				7D87B0AB2396007C001D8BDD /* Storyboard.swift in Sources */,
+				7D87B0852396003E001D8BDD /* AppDelegate.swift in Sources */,
+				7D87B0B22396007C001D8BDD /* DrugViewModel.swift in Sources */,
+				7D87B0AC2396007C001D8BDD /* Calculator.swift in Sources */,
+				7D87B0872396003E001D8BDD /* SceneDelegate.swift in Sources */,
+				7D87B0A82396007C001D8BDD /* LoadingViewController.swift in Sources */,
+				7D87B0AE2396007C001D8BDD /* LayoutConstants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7D87B08A2396003E001D8BDD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D87B08B2396003E001D8BDD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7D87B08F23960040001D8BDD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D87B09023960040001D8BDD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D87B09323960040001D8BDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7D87B09423960040001D8BDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D87B09623960040001D8BDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8F3KT864KL;
+				INFOPLIST_FILE = CombineMVVMDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zcj.CombineMVVMDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D87B09723960040001D8BDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8F3KT864KL;
+				INFOPLIST_FILE = CombineMVVMDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zcj.CombineMVVMDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D87B07C2396003E001D8BDD /* Build configuration list for PBXProject "CombineMVVMDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D87B09323960040001D8BDD /* Debug */,
+				7D87B09423960040001D8BDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D87B09523960040001D8BDD /* Build configuration list for PBXNativeTarget "CombineMVVMDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D87B09623960040001D8BDD /* Debug */,
+				7D87B09723960040001D8BDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D87B0792396003E001D8BDD /* Project object */;
+}
